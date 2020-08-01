@@ -1,0 +1,8 @@
+The function a(n) suggests use about the perfect number where the sum of the divisors of the number is the number itself.
+
+we had to figure out the first 14 perfect numbers.
+
+while the first 1 numbers are available everywhere, the task was to find 11-14 perfect nos. the wikipedia article shows incomplete numbers but gives us a number p which can be used to find the next 4 perfect nos. as i have done in flag.py.
+
+
+flag: flag{tHE_br0kEN_Xor}

@@ -1,0 +1,9 @@
+the file has lot of empty characters in it appended at the end.
+
+it hints towards whitespace stegnography.
+
+using stegsnow to get the flag
+
+command: stegsnow -C cold_war.txt
+
+flag: flag{do_not_use_merriam_webster}

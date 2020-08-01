@@ -1,0 +1,7 @@
+the user name you have to login with is admin.
+
+password of any 3 characters is taken as input and checked.
+
+you just have to login again and again as admin and check for possible passwords.
+
+flag: flag{partial_password_puzzle_pieces}

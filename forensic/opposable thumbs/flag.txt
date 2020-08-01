@@ -1,0 +1,15 @@
+the file provided is a thumbs cache. which is realted to windows.
+
+it is a cache file of the thumbnails of the files present in a folder in windows.
+
+binwalk suggested that there are some image files in the given file.
+
+connecting the dots isnt difficult.
+
+download a software like https://thumbcacheviewer.github.io/ on windows and open the given db file with it.
+
+check all the files that come out.
+
+find the flag.
+
+flag: flag{human_after_all}

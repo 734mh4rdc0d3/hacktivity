@@ -1,0 +1,4 @@
+use ocr to scan the text,
+paste the text in hexed.it and save the file.
+
+flag: flag{optical_hexadecimal_recognition_amirite}

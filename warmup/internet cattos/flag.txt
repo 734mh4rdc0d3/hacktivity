@@ -1,0 +1,3 @@
+visit http://jh2i.com:50003
+
+flag: flag{this_netcat_says_meow}

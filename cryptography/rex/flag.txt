@@ -1,0 +1,14 @@
+the characters of base64 of the flag are xored together.
+
+and output as hexlify.
+
+
+reverse the hexlify and convert to bytearray.
+
+we know flag will start with flag{}
+
+so convert to base64 for getting the initial base64.
+
+then go on reversing.
+
+flag: flag{tyrannosauras_xor_in_reverse}

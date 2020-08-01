@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+
+import base64
+import binascii
+import string
+
+
+flag = "flag{"
+
+c = "37151032694744553d12220a0f584315517477520e2b3c226b5b1e150f5549120e5540230202360f0d20220a376c0067"
+
+print(c)
+
+def enc(f):
+    e = base64.b64encode(f)
+    z = []
+    i = 0
+    while i < len(e):
+        z += [e[i] ^ e[((i + 1) % len(e))]]
+        i = i + 1
+    c = binascii.hexlify(bytearray(z))
+    return c
+
+
+candidates = list(string.printable)
+
+for i in candidates:
+	X = bytes((flag+i+"}").encode('utf-8'))
+	encval = str(enc(X))[2:][:-1]
+	print(X, encval , c.startswith(encval))
+	if(c.startswith(encval)):
+		print(flag+i)
+		break

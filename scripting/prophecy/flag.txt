@@ -1,0 +1,14 @@
+there the number are just hardcoded.
+
+and the connection tells which number was expected.
+
+just go on storing it in the list and start a new connection. give all the numbers from the starting.
+
+the numbers were:
+['99126', '76106', '32378', '49560', '87935', '17366', '36639', '33561', '51241', '24009', '82718', '65774', '87030', '53097', '53885', '29931', '10890', '20583', '46190', '83643']
+
+all it took was twenty numbers in a right order and the flag is yours. I thought maybe it had some 100 numbers in this fashion. turns out, you could do this by hand too.
+
+anyway, flag.py is the script that does the work.
+
+flag: flag{does_this_count_as_artificial_intelligence}

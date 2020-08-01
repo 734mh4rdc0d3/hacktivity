@@ -1,0 +1,3 @@
+open the given wavform in audacity and interpret the less wide wave as .[dot] and more wide wave as -[dash] and decode the morse code from any online decoder.
+
+flag: ARCANGELORICCIARDI
