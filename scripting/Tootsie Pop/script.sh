@@ -54,3 +54,4 @@ do
 	done
 done
 # Although this worked but elegant solution would be to use 7z instead of seperate tools for every one
+# while true; do find . -type f | while read f; do mv "$f" "1";7z -y e "1"; done; done
